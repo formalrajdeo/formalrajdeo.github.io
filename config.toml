@@ -1,0 +1,48 @@
+title = "Rajdeo Prasad"
+description = "A simple blog made with Zola and Duckquill"
+base_url = "https://formalrajdeo.github.io"
+theme = "duckquill"
+
+compile_sass = true
+minify_html = true
+build_search_index = true
+generate_feeds = true
+author = "Rajdeo Prasad"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+[search]
+index_format = "fuse_json"
+
+[markdown]
+smart_punctuation = true
+bottom_footnotes = true
+github_alerts = true
+
+[markdown.highlighting]
+theme = "gruvbox-dark-hard"
+
+[extra]
+emoji_favicon = "🌞"
+accent_color = "goldenrod"
+show_reading_time = true
+show_share_button = true
+default_theme = "dark"
+
+[extra.nav]
+links = [
+	{ url = "@/blog/_index.md", name = "Blog" },
+	{ url = "@/faq.md", name = "FAQ" },
+    #{ url = "tags", name = "Tags" }
+]
+
+[extra.footer]
+show_copyright = true
+show_powered_by = true
+links = [
+    { name = "YouTube",  url = "https://youtube.com/@RajdeoPrasadOfficial" },
+	{ name = "GitHub",   url = "https://github.com/formalrajdeo" },
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/rajdeo-prasad-a27b49203" },
+	{ name = "PGP Key",  url = "/key.txt" },
+	{ name = "CV",       url = "/cv.pdf" },
+]
