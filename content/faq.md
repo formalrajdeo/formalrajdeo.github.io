@@ -121,6 +121,5 @@ Yes.
 
 * Email: [formal.rajdeo@gmail.com](mailto:formal.rajdeo@gmail.com)
 * GitHub: github.com/formalrajdeo
-* LinkedIn: linkedin.com/in/rajdeo-prasad-a27b49203
 
 Feel free to reach out if you'd like to discuss software engineering, backend systems, cloud architecture, or interesting project ideas.

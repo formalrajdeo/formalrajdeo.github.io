@@ -43,7 +43,6 @@ show_powered_by = true
 links = [
     { name = "YouTube",  url = "https://youtube.com/@RajdeoPrasadOfficial" },
 	{ name = "GitHub",   url = "https://github.com/formalrajdeo" },
-    { name = "LinkedIn", url = "https://www.linkedin.com/in/rajdeo-prasad-a27b49203" },
 	{ name = "PGP Key",  url = "/key.txt" },
 	{ name = "CV",       url = "/cv.pdf" },
 ]
